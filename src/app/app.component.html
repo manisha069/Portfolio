@@ -1,0 +1,8 @@
+<div class="navBar">
+    <span class="home text" routerLink="home" [ngClass]="{'overline': isActive('/home') || isActive('/')}">Home</span>
+    <span class="about text" routerLink="about" [ngClass]="{'overline': isActive('/about')}">About</span>
+    <span class="project text" routerLink="projects" [ngClass]="{'overline': isActive('/projects')}">Projects</span>
+    <span class="contact text" routerLink="contact" [ngClass]="{'overline': isActive('/contact')}">Contact</span>
+
+</div>
+<router-outlet></router-outlet>

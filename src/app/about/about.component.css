@@ -1,5 +1,4 @@
 .mainContainer{
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,11 +10,32 @@
 }
 
 .summary{
-    width: 1000px;
+
+    width: 1110px;
     text-align: center;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    font-size: medium;
+    line-height: 1.6; 
+     
+}
+
+
+.base1{
+    padding: 30px 30px 30px 30px;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid #f0f0f0 ;
+}
+
+.base1:hover{
+
+    /* cursor: pointer;  */
+    box-shadow: 4px 4px 10px #cccccc ; 
+}
+
+.keySkills{
+
+    margin-top: 20px;
 }
 
 .skillsList{
@@ -35,13 +55,75 @@
     border-radius: 5px; /* Optional: Add rounded corners */
 }
 
-.experience{
+.skill:hover {
 
-    width: 1000px;
+    /* cursor: pointer;  */
+    box-shadow: 4px 4px 10px #cccccc ; 
+}
+
+.experienceTitle{
+
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #363636;
+}
+
+.experienceCards{
+
+    width: auto;
     height: auto;
-    text-align: center;
     margin-top: 20px;
-    
+    margin-bottom: 30px;
+}
+
+.card{
+
     display: flex;
-    justify-content:flex-start;
+    flex-direction: column;
+}
+
+.toggleButton{
+
+    background-color: #f0f0f0;
+    color: #363636;
+    height: 70px;
+    width: 1110px;
+    border-radius: 10px;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.toggleButton:hover{
+
+    cursor: pointer;
+    background-color: #4285F4;
+    color: #ffffff;
+}
+
+
+.content{
+
+    margin-left: 30px;
+    margin-top: 15px;
+    display: none
+}
+
+.role{
+
+    cursor:pointer;
+    font-size: 20px;
+}
+
+.educationTitle{
+
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #363636;
 }

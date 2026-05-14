@@ -20,8 +20,8 @@
 
 .photo{
     width: 70%;
-    height: 100%;
-    border-radius: 20%;
+    height: 100%; 
+    border-radius: 50%;
     box-shadow: 8px 8px 10px rgb(204, 204, 204);
 }
 
@@ -29,7 +29,7 @@
 
     width: 50%;
     height: auto;
-    color: black;
+    color: #363636 ;
     padding: 40px;
     
 }
@@ -37,10 +37,10 @@
 .name{
 
     font-size: 90px;
-    color: rgb(81, 121, 255);
+    color: #4285F4;
     /* margin-top:50px; */
     margin-bottom: 20px;
-    text-shadow: 6px 6px 8px rgb(204, 204, 204);
+    text-shadow: 6px 6px 8px #cccccc;
 }
 
 .details{
@@ -83,4 +83,16 @@
 
     height: 46px;
     width: 46px;
+}
+
+.icon{
+
+
+}
+
+.icon:hover{
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    /* box-shadow: 4px 4px 10px #cccccc ; */
 }

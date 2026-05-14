@@ -7,4 +7,28 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
+
+  toggleList(id:string){
+      console.log("toggled");
+      var content = document.getElementById(id)!;
+      if (content.style.display == "block") {
+        content.style.display = "none";
+      }
+      else {  
+        content.style.display = "block";
+      }
+  }
+
+  
+  toggleEdu(id:string){
+    console.log("toggled");
+    var content = document.getElementById(id)!;
+    if (content.style.display == "block") {
+      content.style.display = "none";
+    }
+    else {  
+      content.style.display = "block";
+    }
+}
+
 }

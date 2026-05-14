@@ -2,29 +2,160 @@
 
     <div class="summary">
         <!-- <hour2> Summary</h2> -->
-        <span>A passionate and experienced Angular Developer with 3 years of expertise in creating dynamic, responsive, and user-friendly web applications. Proficient in the Angular framework, TypeScript, JavaScript, HTML, and CSS, with a strong command of Git for version control. Skilled at collaborating with cross-functional teams to deliver high-quality, scalable, and performance-optimized software solutions. Adept at troubleshooting complex issues and writing clean, maintainable code while adhering to industry best practices. Committed to staying updated with the latest technologies and trends to continuously enhance development efficiency and innovation.</span>
-        <p>
-        <span>2x Star of the Month | 3x Appreciations | UI/UX Intern - Sudan’s Tech | UI/UX Intern - GirlsScript Foundation | Python Instructor | Category Winner - Hack you Portfolio | Speaker/Organizer - Github Workshop | Rewarded Top Volunteer - HTM 2.0 | Student Ambassador - HackOn 2.0 | Champion Ambassador - GIRLSXTECH | Stu Amb - AngelHacks | Campus Ambassador VF | Best Outreach Partner - HackOdisha</span>
+        <div class="base1">
+            <span >A passionate and experienced Angular Developer with 3 years of expertise in creating dynamic, responsive, and user-friendly web applications. Proficient in the Angular framework, TypeScript, JavaScript, HTML, and CSS, with a strong command of Git for version control. Skilled at collaborating with cross-functional teams to deliver high-quality, scalable, and performance-optimized software solutions. Adept at troubleshooting complex issues and writing clean, maintainable code while adhering to industry best practices. Committed to staying updated with the latest technologies and trends to continuously enhance development efficiency and innovation.</span>
+            <p></p>
+            <span>2x Star of the Month | 3x Appreciations | UI/UX Intern - Sudan’s Tech | UI/UX Intern - GirlsScript Foundation | Python Instructor | Category Winner - Hack you Portfolio | Speaker/Organizer - Github Workshop | Rewarded Top Volunteer - HTM 2.0 | Student Ambassador - HackOn 2.0 | Champion Ambassador - GIRLSXTECH | Stu Amb - AngelHacks | Campus Ambassador VF | Best Outreach Partner - HackOdisha</span>  
+        </div>
         
     </div>
 
     <div class="keySkills">
         <!-- <h2>Key Skills</h2> -->
         <ul class="skillsList">
-            <li>Angular</li>
-            <li>TypeScript</li>
-            <li>JavaScript</li>
-            <li>HTML </li>
-            <li>CSS</li>
-            <li>Git & Version Control</li>
-            <li>RESTful APIs</li>
-            <li>Agile Methodologies</li>
+            <li class="skill">Angular</li>
+            <li class="skill">TypeScript</li>
+            <li class="skill">JavaScript</li>
+            <li class="skill">HTML </li>
+            <li class="skill">CSS</li>
+            <li class="skill">Figma </li>
+            <li class="skill">UI/UX</li>
+            <li class="skill">Git & Version Control</li>
+            <li class="skill">RESTful APIs</li>
+            <li class="skill">Agile Methodologies</li>
         </ul>
     </div>
 
-    <div class="experience">
+    <span class="experienceTitle">Experience</span>
+    <div class="experienceCards">
+        <div class="card">
+            <div class="toggleButton" (click)="toggleList('content1')">
+                <span class="role">Angular Developer</span>
+                <span class="company">Tata Consultancy Services</span>
+                <span class="period">July, 2022 - present</span>
+            </div>
+            <div id = "content1" class="content">
+                <ul>
+                    <li>Developed and maintained dynamic web applications using Angular, TypeScript, and JavaScript.</li>
+                    <li>Collaborated with cross-functional teams to gather requirements and deliver high-quality software solutions.</li>
+                    <li>Implemented responsive design principles to ensure optimal user experience across devices.</li>     
+                    <li>Analyzed and resolved issues and incidents, ensuring smooth project operations and minimizing downtime by 30% using analytical skills.</li>
+                    <li>Participated in code reviews and contributed to the development of best practices for coding standards.</li>
+                    <li>Worked with RESTful APIs to integrate front-end applications with back-end services.</li>      
+                    <li>Utilized Git for version control and collaborated with team members using Agile methodologies.</li>
+                    <li>Contributed to the development of reusable components and libraries to enhance development efficiency.</li> 
+                    <li>Participated in daily stand-ups, sprint planning, and retrospectives to ensure effective communication and collaboration within the team.</li>
+                    <li>Assisted in the training and onboarding of new team members, sharing knowledge and best practices.</li>
+                </ul>
+            </div>
+        </div>
         
+        <div class="card">
+            <div class="toggleButton" (click)="toggleList('content2')">
+                <span class="role">Project Intern</span>
+                <span class="company">Tata Consultancy Services</span>
+                <span class="period">March, 2022 - May, 2022</span>
+            </div>
+            <div id = "content2" class="content">
+                <ul>
+                    <li>Worked closely with senior developers to understand project requirements and deliver high-quality solutions within deadlines.</li>
+                    <li>Gained hands-on experience with Angular, mastering concepts like components, services, directives, and dependency injection.</li>
+                    <li>Documented technical processes and workflows, making it easier for the team to onboard new members and maintain the project.</li>     
+                    <li>Demonstrated a proactive approach to learning Angular and related technologies.</li>
+                    <li>Worked and upskilled to pave the way for transitioning into a full-time Angular Developer role.</li>
+                    <li>Participated in code reviews and learned about development using best practices for set coding standards.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="toggleButton" (click)="toggleList('content3')">
+                <span class="role">UI/UX Intern</span>
+                <span class="company">GirlScript Foundation</span>
+                <span class="period">August, 2021 - November, 2021</span>
+            </div>
+            <div id = "content3" class="content">
+                <ul>
+                    <li>Designing and developing the User Interface for Education Outreach an initiative of GirlScript Foundation.</li>
+                    <li>Worked closely as a team of three, designing a sleek and informative website for the foundation. </li>
+                    <li>Learned a lot deal about team work, tackling frequent change of requirements and planning ideas.</li>     
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="toggleButton" (click)="toggleList('content4')">
+                <span class="role">UI/UX Intern</span>
+                <span class="company">Sudan's Tech</span>
+                <span class="period">July, 2021 - October, 2021</span>
+            </div>
+            <div id = "content4" class="content">
+                <ul>
+                    <li>Worked on developing elegant and clean User Interfaces for in-organization applications which ranged from web-apps to Mobile apps</li>
+                    <li>Improved User Experience in developing products and worked on enhancing pre-existing User interfaces. </li>
+                </ul>
+             </div> 
+             
+        </div>
+            
+            
     </div>
 
+    <span class="educationTitle">Education History</span>
+    <div class="experienceCards">
+        <div class="card">
+            <div class="toggleButton" (click)="toggleEdu('edu1')">
+                <span class="role">Btech CSE</span>
+                <span class="company">IIST, Indore</span>
+                <span class="period">2018 - 2022</span>
+            </div>
+            <div id = "edu1" class="content">
+                <ul>
+                    <li>Graduated with 9.0 CGPA with distinction</li>
+                    <li>Participated in multiple hackathons and conferences</li>
+                    <li>Anchor at college events</li>                    
+                </ul>
+            </div>
+        </div>
 
+        <div class="card">
+            <div class="toggleButton" (click)="toggleEdu('edu2')">
+                <span class="role">12th</span>
+                <span class="company">Airforce School, Gwalior</span>
+                <span class="period">2018</span>
+            </div>
+            <div id = "edu2" class="content">
+                <ul>
+                    <li>Graduated with 81% in PCBM stream</li>
+                    <li>Stream Topper</li>
+                    <li>Head Girl and Head of Editorial Board</li>  
+                </ul>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="toggleButton" (click)="toggleEdu('edu3')">
+                <span class="role">10th</span>
+                <span class="company">Army Public School, Noida</span>
+                <span class="period">2016</span>
+            </div>
+            <div id = "edu3" class="content">
+                <ul>
+                    <li>Graduated with 9.5 CGPA</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+
+        
+
+        
+
+
+
+        
 </div>
